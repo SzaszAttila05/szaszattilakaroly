@@ -3,7 +3,9 @@
 3.a range akkor hasznos, hogyha egy adott mennyiségszer akarjuk lefuttatni az adott kódrészt
 4.a while hogyha valamihez kötni akarjuk hogy hányszor fusson le, a while meg ha egy adott mennyiségig.
 5.pop parancsal. pl: lista.pop(alma)
-6.
-7.
-8.
-9.
+6.lowecase, pl:
+    mondtad="Ez A MondaT."
+    monddat.lowercase()
+7. A lista bővíthető, míg a szótár nem. a szótár viszont kulcs, érték tárolóba menti az adatokat.
+8.hogy ne keljen ugyanazt a sort legépelni többször ha egy kódba többször szeretnénk használni.
+9.hogy az adott eredménnyel visszatér
