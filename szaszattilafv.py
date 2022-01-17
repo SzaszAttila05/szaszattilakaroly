@@ -7,15 +7,20 @@ def kartyageneralo():
     lehetosegekS=("1""2""3""4""5""6""7""8""9")
     betu=random.choice(lehetosegekB)
     szam=random.choice(lehetosegekS)
-    print(betu)
+    betuteljes=betu+betu+betu+betu
+    szamteljes=szam+szam+szam+szam
+    print(betuteljes)
+    print(szamteljes)
+
 
 
     
 
 def gyartasievek():
+    evek=("1988","2001","2006","2010","2021","2022",)
     ev=random.choice(evek)
     print(ev)
-    return evek
+
 
 def pontszam():
     pontszam=100
@@ -33,12 +38,17 @@ def pontszam():
 
 
 def nevgenerator():
-    Vnevek=("Kovács""Molnár""Kiss""Tóth""Nagy""Horváth""Szabó""Papp""Farkas")
-    Knevek=("József""Sándor""Katalin""Béla""Bettina""Éva""Benedek""Péter""Erika")
+    Vnevek=("Kovács","Molnár","Kiss","Tóth","Nagy","Horváth","Szabó","Papp","Farkas",)
+    Knevek=("József","Sándor","Katalin","Béla","Bettina","Éva","Benedek","Péter","Erika",)
+    vnevrandom=random.choice(Vnevek)
+    knevrandom=random.choice(Knevek)
+    Teljesnev=vnevrandom+ knevrandom
+    print(Teljesnev)
 
 
 def kiiro():
-    for betusor in range(4):
         kartyageneralo()
-    return betusor
+        gyartasievek()
+        pontszam()
+        nevgenerator()
 kiiro()
