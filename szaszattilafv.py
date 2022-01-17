@@ -2,11 +2,14 @@ import random
 evek=("1988""2001""2006""2010""2021""2022")
 
 def kartyageneralo():
+    eredetiSzam=0
     lehetosegekB=("Q""W""E""R""T""Z""U""I""O""P""L""K""J""H""G""F""D""S""A""Y""X""C""V""B""N""M")
-    lehetosegekS="123456789"
-    for szamok in range (4):
-        szam=random.choice(lehetosegekS)
-    print(szam)
+    lehetosegekS=("1""2""3""4""5""6""7""8""9")
+    betu=random.choice(lehetosegekB)
+    szam=random.choice(lehetosegekS)
+    print(betu)
+
+
     
 
 def gyartasievek():
@@ -32,3 +35,10 @@ def pontszam():
 def nevgenerator():
     Vnevek=("Kovács""Molnár""Kiss""Tóth""Nagy""Horváth""Szabó""Papp""Farkas")
     Knevek=("József""Sándor""Katalin""Béla""Bettina""Éva""Benedek""Péter""Erika")
+
+
+def kiiro():
+    for betusor in range(4):
+        kartyageneralo()
+    return betusor
+kiiro()
