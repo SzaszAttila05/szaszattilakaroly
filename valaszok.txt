@@ -1,0 +1,9 @@
+1.
+2. A python egy interpreter nyelv, ami azt jelenti hogy soronként értelmezi a kódot és csak addig tudja futtatni, ameddig nincs hiba benne.
+3.a range akkor hasznos, hogyha egy adott mennyiségszer akarjuk lefuttatni az adott kódrészt
+4.a while hogyha valamihez kötni akarjuk hogy hányszor fusson le, a while meg ha egy adott mennyiségig.
+5.pop parancsal. pl: lista.pop(alma)
+6.
+7.
+8.
+9.
